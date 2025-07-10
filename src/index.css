@@ -1,82 +1,21 @@
 /* src/index.css */
 
-/* Reset dasar untuk konsistensi antar browser */
-body, h1, h2, p, button, input, form {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-}
-
+/* Hapus bagian ini atau beri komentar */
+/*
 body {
-  background-color: #f0f2f5; /* Warna latar belakang seperti Facebook */
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
+*/
 
-#root {
-  width: 100%;
-  max-width: 400px;
+/* Biarkan sisa style yang lain */
+body, h1, p, button, input, form {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-div {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-h1 {
-  margin-bottom: 1.5rem;
-  font-size: 1.8rem;
-  color: #1c1e21;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-input {
-  padding: 1rem;
-  border: 1px solid #dddfe2;
-  border-radius: 6px;
-  font-size: 1rem;
-}
-
-input:focus {
-  outline: none;
-  border-color: #1877f2; /* Warna biru Facebook */
-  box-shadow: 0 0 0 2px #e7f3ff;
-}
-
-button {
-  padding: 1rem;
-  border: none;
-  border-radius: 6px;
-  background-color: #1877f2;
-  color: white;
-  font-size: 1.2rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-button:hover {
-  background-color: #166fe5;
-}
-
-a {
-  color: #1877f2;
-  text-decoration: none;
-  margin-top: 1rem;
-  display: inline-block;
-}
-
-a:hover {
-  text-decoration: underline;
-}
+/* ... sisa style ... */
